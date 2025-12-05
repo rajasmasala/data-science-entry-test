@@ -10,7 +10,7 @@ def find_first_negative(lst):
         if lst[i] < 0:
             return lst[i]
         i += 1
-    return "No negative"
+    return "No negatives"
 
 
 # Task 2
