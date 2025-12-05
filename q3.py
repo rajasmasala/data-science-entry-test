@@ -15,6 +15,6 @@ def update_dictionary(dct, key, value):
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
 # - {}, "name", "Alice"
-updated_dict = update_dictionary({}, "name", "Alice")
+updated_dict_1 = update_dictionary({}, "name", "Alice")
 # - {"age": 25}, "age", 26
-updated_dict = update_dictionary({"age": 25}, "age", 26)
+updated_dict_2 = update_dictionary({"age": 25}, "age", 26)
