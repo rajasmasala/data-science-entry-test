@@ -11,7 +11,7 @@ class Car:
     self.year = year
 
     def describe_car(self):
-        print(f"Make: {self.make}, Model: {self.model}, Year: {self.year}")
+        print(f"{self.year} {self.make} {self.model}")
 
 
 # Task 2
